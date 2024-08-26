@@ -1,0 +1,32 @@
+{
+  "name": "root",
+  "version": "1.20.4",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@lerna-lite/cli": "^3.2.1",
+    "@lerna-lite/publish": "^3.2.1",
+    "@lerna-lite/run": "^3.2.1",
+    "@lerna-lite/version": "^3.2.1"
+  },
+  "scripts": {
+    "start": "lerna bootstrap --hoist",
+    "i-all": "lerna link && lerna exec npm install  ",
+    "publish": "npm run prepublishOnly2  && lerna publish --conventional-commits --create-release github && npm run afterpublishOnly",
+    "afterpublishOnly": "time /t >build.trigger && git add ./build.trigger && git commit -m \"build: trigger build image\" && TIMEOUT /T 10 && git push",
+    "prepublishOnly1": "npm run check && lerna run build ",
+    "prepublishOnly2": "npm run check && npm run before-build && lerna run build ",
+    "before-build": "cd ./packages/core/pipeline && time /t >build.md && git add ./build.md && git commit -m \"build: prepare to build\"",
+    "deploy1": "node --experimental-json-modules deploy.js ",
+    "check": "node --experimental-json-modules publish-check.js",
+    "init": "lerna run build"
+  },
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "lodash": "^4.17.21"
+  },
+  "workspaces": [
+    "packages/**"
+  ]
+}
