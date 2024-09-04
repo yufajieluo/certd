@@ -9,12 +9,12 @@
           <span @click="openUpgrade">{{ texts.plus }}</span>
         </a-tooltip>
       </template>
-      <template v-else>
+      <!--template v-else>
         <a-tooltip>
           <template #title> 升级专业版，享受更多VIP特权 </template>
           <span @click="openUpgrade"> {{ texts.free }} {{ expiredDays }} </span>
         </a-tooltip>
-      </template>
+      </template-->
     </div>
   </div>
 </template>

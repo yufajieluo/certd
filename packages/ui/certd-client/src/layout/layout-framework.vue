@@ -57,15 +57,15 @@
           </template>
         </router-view>
       </a-layout-content>
-      <a-layout-footer class="fs-framework-footer">
+      <!--a-layout-footer class="fs-framework-footer">
         <div>
           <span>Powered by</span>
           <a href="https://certd.handsfree.work"> handsfree.work </a>
         </div>
         <div>v{{ version }}</div>
 
-        <!--        <fs-source-link />-->
-      </a-layout-footer>
+                <fs-source-link />
+      </a-layout-footer-->
     </a-layout>
   </a-layout>
 </template>

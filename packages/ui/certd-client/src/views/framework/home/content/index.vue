@@ -7,7 +7,7 @@
     </div>
     <p class="d2-page-cover__sub-title">让你的证书永不过期</p>
     <div class="warnning">
-      <a-alert type="warning" show-icon>
+      <!--a-alert type="warning" show-icon>
         <template #description>
           <div class="flex">
             证书和授权为敏感信息，不要使用来历不明的在线CertD服务，以免泄露；请务必私有化部署使用，认准官方版本发布渠道：
@@ -15,15 +15,15 @@
             <a class="ml-5 flex" href="https://github.com/certd/certd" target="_blank">github</a>
           </div>
         </template>
-      </a-alert>
+      </a-alert-->
     </div>
     <div class="content">
       <img src="/images/preview.png" class="preview_img" />
     </div>
     <div class="footer_box">
       <div>如果觉得好用，请不要吝啬你的star哟！</div>
-      <a href="https://gitee.com/certd/certd" target="_blank"><img src="https://gitee.com/certd/certd/badge/star.svg?theme=dark" alt="star" /></a>
-      <a href="https://github.com/certd/certd" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/certd/certd?logo=github" /></a>
+      <!--a href="https://gitee.com/certd/certd" target="_blank"><img src="https://gitee.com/certd/certd/badge/star.svg?theme=dark" alt="star" /></a-->
+      <a href="https://github.com/yufajieluo/certd" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/yufajieluo/certd?logo=github" /></a>
     </div>
   </div>
 </template>

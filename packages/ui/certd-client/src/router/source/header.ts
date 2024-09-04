@@ -1,4 +1,6 @@
 export const headerResource = [
+  {}
+/*
   {
     title: "文档",
     path: "http://github.com/certd/certd"
@@ -27,4 +29,5 @@ export const headerResource = [
       }
     ]
   }
+  */
 ];
