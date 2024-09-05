@@ -1,7 +1,7 @@
 # Certd
 
 ```
-docker_image=registry.ide.cn.wrstudio.cloud/installation/certd:v1.0.0
+docker_image=certd:v1.0.0
 docker_name=certd
 docker_mnt=/data1/certd
 
