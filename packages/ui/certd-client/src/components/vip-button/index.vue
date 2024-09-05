@@ -1,5 +1,5 @@
 <template>
-  <div class="layout-vip isPlus">
+  <!--div class="layout-vip isPlus">
     <contextHolder />
     <fs-icon icon="mingcute:vip-1-line"></fs-icon>
     <div class="text">
@@ -9,14 +9,14 @@
           <span @click="openUpgrade">{{ texts.plus }}</span>
         </a-tooltip>
       </template>
-      <!--template v-else>
+      <template v-else>
         <a-tooltip>
           <template #title> 升级专业版，享受更多VIP特权 </template>
           <span @click="openUpgrade"> {{ texts.free }} {{ expiredDays }} </span>
         </a-tooltip>
-      </template-->
+      </template>
     </div>
-  </div>
+  </div-->
 </template>
 <script lang="tsx" setup>
 import { ref, reactive, computed } from "vue";

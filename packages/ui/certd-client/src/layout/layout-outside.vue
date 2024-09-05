@@ -18,7 +18,7 @@
           <!--            <a href="_self">隐私</a>-->
           <!--            <a href="_self">条款</a>-->
           <!--          </div>-->
-          <div class="copyright">
+          <!--div class="copyright">
             <span>Copyright</span>
             <span>&copy;</span>
             <span>{{ envRef.COPYRIGHT_YEAR }}</span>
@@ -28,7 +28,7 @@
             <span v-if="envRef.ICP_NO">
               <a href="https://beian.miit.gov.cn/" target="_blank">{{ envRef.ICP_NO }}</a>
             </span>
-          </div>
+          </div-->
         </div>
       </div>
     </div>

@@ -30,7 +30,7 @@
           <!--          >-->
           <!--            Button-->
           <!--          </button>-->
-          <fs-menu class="header-menu" mode="horizontal" :expand-selected="false" :selectable="false" :menus="headerMenus" />
+          <!--fs-menu class="header-menu" mode="horizontal" :expand-selected="false" :selectable="false" :menus="headerMenus" /-->
           <div class="header-btn">
             <fs-locale />
           </div>
@@ -64,7 +64,7 @@
         </div>
         <div>v{{ version }}</div>
 
-                <fs-source-link />
+        <fs-source-link />
       </a-layout-footer-->
     </a-layout>
   </a-layout>
